@@ -1,0 +1,92 @@
+---Test 1---
+Printing...
+{height: 4, data: 50, prev_hash: 177 117 86 234 50}
+{height: 3, data: 40, prev_hash: 34 61 82 236 238}
+{height: 2, data: 30, prev_hash: 26 234 96 118 126}
+{height: 1, data: 20, prev_hash: 54 253 248 250 50}
+{height: 0, data: 10, prev_hash: 0 0 0 0 0}
+Verifying...
+Block 4 passed
+Block 3 passed
+Block 2 passed
+Block 1 passed
+Block 0 passed
+All blocks have been verified.
+
+---Test 2---
+Printing...
+{height: 4, data: 50, prev_hash: 90 104 238 192 168}
+{height: 3, data: 40, prev_hash: 166 12 64 176 128}
+{height: 2, data: 30, prev_hash: 67 180 2 72 162}
+{height: 1, data: 20, prev_hash: 54 253 248 250 50}
+{height: 0, data: 10, prev_hash: 0 0 0 0 0}
+Verifying...
+Block 4 passed
+Block 3 passed
+Block 2 passed
+Block 1 passed
+Block 0 passed
+All blocks have been verified.
+Altering a block...
+Block 2 altered containing now 300
+Printing...
+{height: 4, data: 50, prev_hash: 90 104 238 192 168}
+{height: 3, data: 40, prev_hash: 166 12 64 176 128}
+{height: 2, data: 300, prev_hash: 67 180 2 72 162}
+{height: 1, data: 20, prev_hash: 54 253 248 250 50}
+{height: 0, data: 10, prev_hash: 0 0 0 0 0}
+Verifying...
+Block 4 passed
+Block 3 failed
+
+---Test 3---
+Printing...
+{height: 4, data: 50, prev_hash: 32 250 98 142 56}
+{height: 3, data: 40, prev_hash: 254 125 182 238 86}
+{height: 2, data: 30, prev_hash: 26 186 6 38 88}
+{height: 1, data: 20, prev_hash: 54 253 248 250 50}
+{height: 0, data: 10, prev_hash: 0 0 0 0 0}
+Verifying...
+Block 4 passed
+Block 3 passed
+Block 2 passed
+Block 1 passed
+Block 0 passed
+All blocks have been verified.
+Altering two blocks...
+Block 1 altered containing now 200
+Block 2 altered too.
+Printing...
+{height: 4, data: 50, prev_hash: 32 250 98 142 56}
+{height: 3, data: 40, prev_hash: 254 125 182 238 86}
+{height: 2, data: 30, prev_hash: 208 168 142 226 120}
+{height: 1, data: 200, prev_hash: 54 253 248 250 50}
+{height: 0, data: 10, prev_hash: 0 0 0 0 0}
+Verifying...
+Block 4 passed
+Block 3 failed
+
+---Test 4---
+Printing...
+{height: 4, data: 50, prev_hash: 89 145 184 82 248}
+{height: 3, data: 40, prev_hash: 22 157 176 28 228}
+{height: 2, data: 30, prev_hash: 57 180 130 162 178}
+{height: 1, data: 20, prev_hash: 54 253 248 250 50}
+{height: 0, data: 10, prev_hash: 0 0 0 0 0}
+Verifying...
+Block 4 passed
+Block 3 passed
+Block 2 passed
+Block 1 passed
+Block 0 passed
+All blocks have been verified.
+Deleting...
+Block 1 deleted
+Printing...
+{height: 4, data: 50, prev_hash: 89 145 184 82 248}
+{height: 3, data: 40, prev_hash: 22 157 176 28 228}
+{height: 2, data: 30, prev_hash: 57 180 130 162 178}
+{height: 0, data: 10, prev_hash: 0 0 0 0 0}
+Verifying...
+Block 4 passed
+Block 3 failed
